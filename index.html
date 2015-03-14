@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Rooms</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/bootstrap-social.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <!--Holder.js-->
+    <script src="js/holder.js"></script>
+
+    <!--AngularJS Directives-->
+    <script src="js/angular.min.js"></script>
+    <script src="js/script1.js"></script>
+    <script src="js/protractor.js"></script>
+    <script src="js/ui-bootstrap-0.12.min.js"></script>
+    <!--<script src="js/ui-bootstrap-tpls-0.12.1.min.js"></script>-->
+
+  </head>
+<body>
+<div class="container"><!--container de toda la página-->
+
+      <div class="container-fluid header panel"><!--container header-->
+        <div class="row">
+            <div class="col-md-3 hidden-xs ls">
+                <center>
+                  <div class="dropdown" style="margin: 1em;"><!--Header left-->
+                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">Dropdown
+                        <span class="caret"></span>
+                      </button>
+
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                      </ul>
+                  </div>
+                  <div class="social btn-justified"><!--Social Icons-->
+                        <a class="btn btn-social-icon btn-twitter btn-xs">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-facebook btn-xs">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-pinterest btn-xs">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-instagram btn-xs">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                  </div>
+                </center>
+            </div>
+
+            <div class="col-md-6 thumbnail"><!--Header center LOGO-->
+              <div class="logo">
+                <center><a href="#"><img src="holder.js/433x116" class="img-responsive"></a></center>
+              </div>
+            </div>
+
+            <div class="col-md-3 pull-righ hidden-xs ls"><!--header right-->
+              <button type="button" class="btn btn-default btn-lg btn-block">Book NOW</button>
+            </div>
+
+        </div>
+      </div><!--fin container header-->
+
+  <div class="clearfix"></div>
+
+<div class="container-fluid"><!--Content container-->
+      <nav class="navbar navbar navbar-relative-top"> <!--Container Menú-->
+        <div class="navbar-inner">
+            <div class="nav-collapse visible-xs"><!--Menú móvil-->
+              <a class="btn btn-default pull-right" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <span class="caret"></span>
+              </a>
+            <div class="clearfix"></div>
+              <div class="collapse" id="collapseExample">
+                <ul class="nav nav-tabs nav-justified">
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">About Us</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Rooms</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Amenities</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">See & Do</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Find Us</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Q + A</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Other Locations</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Book Now</ul></a></li>
+                </ul>
+              </div>
+            </div><!--fin Menú móvil-->
+
+            <div class="nav-collapse hidden-xs"> <!--Menú Desktop-->
+                <ul class="nav nav-tabs nav-justified">
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">About Us</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Rooms</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Amenities</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">See & Do</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Find Us</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Q + A</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Other Locations</ul></a></li>
+                  <li role="presentation"><a href="#"><ul class="nav nav-tabs nav-justified">Book Now</ul></a></li>
+                </ul>
+            </div><!--Fin Menú Desktop-->
+        </div>
+      </nav><!--Fin Container Menú-->
+
+  <div class="clearfix"></div>
+
+        <div class="row-fluid"><!--Container Blog-->
+
+              <div class="col-md-4">
+                <div class="panel">
+                  <div class="panel-body">
+                    <form class="bed-form">
+                          <input class="form-control col-xs-4" type="text" placeholder="Default input">
+                          <input class="form-control col-xs-4" type="text" placeholder="Default input">
+                          <button type="button" class="btn btn-default btn-lg btn-block">BOOK A BED</button>
+                    </form>
+                  </div>
+                </div>
+              </div><!---->
+
+              <div class="col-md-4">
+                <div class="panel">
+                  <div class="panel-body">
+                    <h3>CENTER POSITION</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    </p>
+                  </div>
+                </div>
+              </div><!---->
+
+              <div class="col-md-4 hidden-xs">
+                <div class="panel">
+                  <div class="panel-body">
+                      <h3>RIGHT POSITION</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      </p>
+                  </div>
+                </div>
+              </div><!---->
+
+      </div><!--Fin container blog-->
+
+  <div class="clearfix"></div>
+
+      <div id="carousel" class="carousel slide" data-ride="carousel"><!--Slide-->
+        <!-- Indicators
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>-->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img data-src="holder.js/1150x325" alt="..." class="img-responsive">
+            <div class="carousel-caption">
+              FIRST SLIDE
+            </div>
+          </div>
+          <div class="item">
+            <img data-src="holder.js/1150x325" alt="..." class="img-responsive">
+            <div class="carousel-caption">
+              SECOND SLIDE
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <p>
+          <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </p>
+      </div><!--Fin slide-->
+
+  <div class="clearfix"></div>
+
+    <div class="row-fluid"><!--review-->
+
+      <div class="col-md-4 panel">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>CENTER LEFT</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatu.</p>
+          </div>
+        </div>
+      </div><!---->
+
+      <div class="col-md-4 panel">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <!-- 4:3 aspect ratio -->
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe class="embed-responsive-item" src="//www.youtube.com/embed/QkdUB7i10Wc"></iframe>
+            </div>
+          </div>
+        </div>
+      </div><!---->
+
+      <div class="col-md-4 panel">
+        <div class="panel panel-default">
+          <div class="panel-body">
+              <h3>RIGHT POSITION</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div><!---->
+    </div><!--fin review-->
+</div><!--content jumbo container-->
+
+<div ng-app="docsBindExample" ng-controller="Controller">
+  Hello <input ng-model='name'> <hr/>
+  <span ng-bind="name"></span> <br/>
+  <span ng:bind="name"></span> <br/>
+  <span ng:bind="name"></span> <br/>
+  <span data-ng-bind="name"></span> <br/>
+  <span x-ng-bind="name"></span> <br/>
+</div>
+
+  <div class="clearfix"></div>
+
+  <footer>
+    <div class="container-fluid">
+
+        <div class="photo-space clearfix"><!--Feed-->
+            <a href="#"><img src="http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/10903411_646666588789667_621096214_n.jpg" alt=""></a>
+            <a href="#"><img src="http://scontent-b.cdninstagram.com/hphotos-xpf1/t51.2885-15/s150x150/e15/10299809_851789164873471_21824455_n.jpg" alt=""></a>
+            <a href="#"><img src="http://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/10848073_802335996498991_1169753929_n.jpg" alt=""></a>
+            <a href="#"><img src="http://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/10843731_1524667937819769_343809656_n.jpg" alt=""></a>
+            <a href="#"><img src="http://scontent-a.cdninstagram.com/hphotos-xap1/t51.2885-15/s150x150/e15/10808955_1637251813169058_251202246_n.jpg" alt=""></a>
+            <a href="#"><img src="http://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/10817694_1518012031787951_1678774948_n.jpg" alt=""></a>
+        </div>
+
+        <div class="row-fluid"><!--Copyright-->
+          <div class="col-md-5">
+            <p>
+              TheRooms &copy; 2015 All Reserved Rights<br>
+              <span>
+                Design by <a href="#" target="_blank"><i>Restaurantean.do</i></a>
+              </span>
+            </p>
+          </div>
+
+          <div class="col-md-7 pull-right">
+            <div class="nav nav-tabs">
+              <ul class="nav" id="footer-menu">
+                <li role="presentation" class="menu-item"><a href="#">Contact Us</a></li>
+                <li role="presentation" class="menu-item"><a href="#">Blog</a></li>
+                <li role="presentation" class="menu-item"><a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+          </div><!--fin footer-menu -->
+        </div>
+
+        <div class="social visible-xs"><!--Social Icons-->
+                <a class="btn btn-social-icon btn-twitter btn-xs">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="btn btn-social-icon btn-facebook btn-xs">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="btn btn-social-icon btn-pinterest btn-xs">
+                    <i class="fa fa-pinterest"></i>
+                </a>
+                <a class="btn btn-social-icon btn-instagram btn-xs">
+                    <i class="fa fa-instagram"></i>
+                </a>
+        </div>
+
+    </div>
+  </footer>
+
+  </div><!--Fin del container de la página-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.nav-collapse').collapse();
+      $('.carousel').carousel();
+    </script>
+  </body>
+</html>

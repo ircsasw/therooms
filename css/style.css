@@ -1,0 +1,32 @@
+.logo
+{
+	margin: 18px 0px 26px;
+	text-align: center;
+}
+.thumbnail
+{
+	border: none;
+}
+.ls
+{
+	padding-top: 45px;
+}
+.photo-space
+{
+	margin: 0px 0px 25px;
+	text-align: center;
+}
+.bed-form
+{
+    padding: 18px 28px;
+    border-right: 1px solid #DCDCDC;
+    min-height: 160px;
+    text-align: center;
+}
+footer #footer-menu .menu-item
+{
+	float: right;
+	line-height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
